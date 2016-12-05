@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Score Keeper app</string>
+    <string name="vs">VS</string>
+    <string name="goal">Goal!</string>
+    <string name="foul">Foul</string>
+    <string name="yellow_card">Yellow Card</string>
+    <string name="red_card">Red Card</string>
+    <string name="reset_score">Reset Score</string>
+    <string name="reset_all">Reset All</string>
+    <string name="stats">Stats</string>
+    <string name="fouls">Fouls</string>
+    <string name="yellow_cards">Yellow Cards</string>
+    <string name="red_cards">Red Cards</string>
+    <string name="local_team">Real Madrid</string>
+    <string name="visit_team">Barcelona</string>
+    <string name="visit_team_desc">Visit Team Img</string>
+    <string name="local_team_img_desc">Local Team Img</string>
+</resources>
