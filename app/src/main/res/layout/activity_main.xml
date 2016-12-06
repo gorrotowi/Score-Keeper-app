@@ -37,8 +37,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/shield_size"
+                    android:layout_height="@dimen/shield_size"
                     android:contentDescription="@string/local_team_img_desc"
                     android:src="@drawable/realmadrid_shield" />
 
@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:textColor="@android:color/black"
-                    android:textSize="30sp"
+                    android:textSize="@dimen/score_dimmen"
                     tools:text="0" />
 
             </LinearLayout>
@@ -59,7 +59,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/vs"
-                android:textSize="34sp" />
+                android:textSize="@dimen/vs_dimmen" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -69,8 +69,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/shield_size"
+                    android:layout_height="@dimen/shield_size"
                     android:contentDescription="@string/visit_team_desc"
                     android:src="@drawable/barcelona_shield" />
 
@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:textColor="@android:color/black"
-                    android:textSize="30sp"
+                    android:textSize="@dimen/score_dimmen"
                     tools:text="0" />
 
             </LinearLayout>

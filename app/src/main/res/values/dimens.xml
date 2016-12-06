@@ -3,4 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="table_row_padding">5dp</dimen>
+    <dimen name="shield_size">100dp</dimen>
+    <dimen name="score_dimmen">30sp</dimen>
+    <dimen name="vs_dimmen">34sp</dimen>
 </resources>
