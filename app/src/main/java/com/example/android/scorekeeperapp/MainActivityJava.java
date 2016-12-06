@@ -11,17 +11,33 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 /**
  * Created by Gorro on 05/12/16.
  */
 
 public class MainActivityJava extends AppCompatActivity {
 
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
-    TextView txtGoalLocal, txtGoalVisit,
-            txtLocalFouls, txtVisitFouls,
-            txtLocalYCard, txtVisitYCard,
-            txtLocalRCard, txtVisitRCard;
+    @BindView(R.id.txtGoalLocal)
+    TextView txtGoalLocal;
+    @BindView(R.id.txtGoalVisit)
+    TextView txtGoalVisit;
+    @BindView(R.id.txtLocalFouls)
+    TextView txtLocalFouls;
+    @BindView(R.id.txtLocalYCard)
+    TextView txtLocalYCard;
+    @BindView(R.id.txtLocalRCard)
+    TextView txtLocalRCard;
+    @BindView(R.id.txtVisitFouls)
+    TextView txtVisitFouls;
+    @BindView(R.id.txtVisitYCard)
+    TextView txtVisitYCard;
+    @BindView(R.id.txtVisitRCard)
+    TextView txtVisitRCard;
 
     int goalsLocal = 0;
     int goalVisit = 0;
@@ -39,18 +55,9 @@ public class MainActivityJava extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        txtGoalLocal = (TextView) findViewById(R.id.txtGoalLocal);
-        txtGoalVisit = (TextView) findViewById(R.id.txtGoalVisit);
-        txtLocalFouls = (TextView) findViewById(R.id.txtLocalFouls);
-        txtVisitFouls = (TextView) findViewById(R.id.txtVisitFouls);
-        txtLocalYCard = (TextView) findViewById(R.id.txtLocalYCard);
-        txtVisitYCard = (TextView) findViewById(R.id.txtVisitYCard);
-        txtLocalRCard = (TextView) findViewById(R.id.txtLocalRCard);
-        txtVisitRCard = (TextView) findViewById(R.id.txtVisitRCard);
 
     }
 
